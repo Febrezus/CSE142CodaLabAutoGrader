@@ -9,16 +9,16 @@
 ```
 $ python3 separate.py
 ```
-*(this will separate and organize all participant submissions for use in the future)*
+*(This will separate and organize all participant submissions for use in the future)*
 
 5. Run:
 ```
 $ python3 scores.py
 ```
-*(Important! change the grading formula for the submissions. This will also save the scores to scores.csv)*
+*(Important! Change the grading formula for the submissions. This will also save the scores to scores.csv)*
 
 6. Run:
 ```
 $ python3 checker.py
 ```
-*(optionally, run it with --moss to run moss on all submissions)*
+*(This will check all the submissions imports, checking if they imported any modules that are blacklisted or not whitelisted. Optionally, run it with --moss to also run moss on all submissions)*
