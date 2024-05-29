@@ -9,12 +9,14 @@
 ```
 $ python3 separate.py
 ```
-*(this will separate and organize all participant submissions for use in the future)
+*(this will separate and organize all participant submissions for use in the future)*
+
 5. Run:
 ```
 $ python3 scores.py
 ```
 *(Important! change the grading formula for the submissions. This will also save the scores to scores.csv)*
+
 6. Run:
 ```
 $ python3 checker.py
